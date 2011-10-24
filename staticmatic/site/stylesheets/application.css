@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  background: transparent url(../images/wood.jpg) repeat;
+}
+body a#yelp {
+  display: block;
+  position: absolute;
+  left: 800px;
+  top: 100px;
+}
+body #content {
+  width: 600px;
+  margin: 30px auto 100px 150px;
+  background-color: #ece8dd;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -o-border-top-left-radius: 3px;
+  -ms-border-top-left-radius: 3px;
+  -khtml-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -o-border-top-right-radius: 3px;
+  -ms-border-top-right-radius: 3px;
+  -khtml-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  -ms-border-bottom-left-radius: 10px;
+  -khtml-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  -ms-border-bottom-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+body #content img#logo {
+  margin: 20px 0 0 0px;
+}
+body #content #subcontent {
+  padding: 20px;
+}
+body #content #subcontent h1 {
+  color: #422f21;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 25px 0 5px 0;
+}
+body #content #subcontent h2 {
+  color: #422f21;
+  margin: 3px 0 3px 0;
+  padding-bottom: 3px;
+  font-size: 16px;
+  font-weight: normal;
+}
+body #content #subcontent h2 a.active {
+  font-weight: bold;
+}
+body #content #subcontent div.togglable {
+  margin-bottom: 10px;
+}
+body #content #subcontent p {
+  color: #664d37;
+  line-height: 1.4em;
+  padding: 3px 0 20px 0;
+  margin: 0;
+}
+body #content #subcontent p.weak {
+  font-style: italic;
+  color: #776f5b;
+  font-size: 0.9em;
+}
+body #content #subcontent img.gallery {
+  display: block;
+  border: 1px solid black;
+  border-color: #664d37;
+  margin: 10px 0 10px 0;
+}
+body #content #subcontent a {
+  color: #597836;
+}

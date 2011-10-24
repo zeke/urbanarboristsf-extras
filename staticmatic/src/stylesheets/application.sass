@@ -1,0 +1,71 @@
+@import "compass/css3"
+
+$green: #87AA3E
+$dark_green: #597836
+$cream: #ECE8DD
+$brown: #664D37
+$dark_brown: #422F21
+$light_brown: #776F5B
+
+body
+  margin: 0
+  padding: 0
+  font-family: Georgia, serif
+  background: transparent url(../images/wood.jpg) repeat
+  
+  
+  a#yelp
+    display: block
+    position: absolute
+    left: 800px
+    top: 100px
+    
+  #content
+    width: 600px
+    margin: 30px auto 100px 150px
+    background-color: $cream
+    @include border-top-radius(3px)
+    @include border-bottom-radius(10px)
+
+    
+    img#logo
+      margin: 20px 0 0 0px
+    
+    #subcontent
+      padding: 20px
+
+      h1
+        color: $dark_brown
+        font-size: 24px
+        font-weight: normal
+        margin: 25px 0 5px 0
+      
+      h2
+        color: $dark_brown
+        margin: 3px 0 3px 0
+        padding-bottom: 3px
+        font-size: 16px
+        font-weight: normal
+        a.active
+          font-weight: bold
+        
+      div.togglable
+        margin-bottom: 10px
+      
+      p
+        color: $brown
+        line-height: 1.4em
+        padding: 3px 0 20px 0
+        margin: 0
+        &.weak
+          font-style: italic
+          color: $light_brown
+          font-size: .9em
+          
+      img.gallery
+        display: block
+        border: 1px solid black
+        border-color: $brown
+        margin: 10px 0 10px 0
+      a
+        color: $dark_green

@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Urban Arborist
+    = stylesheets
+    = javascripts 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js', 'application'
+  %body
+
+    = link_to(img('yelp.png'), "http://www.yelp.com/biz/the-urban-arborist-san-francisco-2", :id => "yelp")
+
+    #content
+    
+      = yield

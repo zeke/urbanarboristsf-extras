@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Urban Arborist</title>
+    <link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+    <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script><script language="javascript" src="javascripts/application.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <a href="http://www.yelp.com/biz/the-urban-arborist-san-francisco-2" id="yelp"><img alt="Yelp" src="images/yelp.png"></a>
+    <div id="content">
+      <img alt="Logo" id="logo" src="images/logo.png">
+      <div id="subcontent">
+        <h1>About Us</h1>
+        <p>
+          The Urban Arborist is a professional tree service that is fully licensed,
+          insured and bonded. We provide tree care to the San Francisco Bay area.
+          All work is performed or directed by a second-generation arborist certified
+          by the
+          <a href="http://www.isa-arbor.com">ISA (International Society of Arboriculture)</a>
+          Proper climbing and
+          pruning techniques are used and we are adequately equipped to perform
+          any job.
+        </p>
+        <h1>Services</h1>
+        <p>
+          Our services include structural pruning, reduction pruning, vista pruning,
+          removals, emergencies, and diagnosis. Click any service below for more info.
+        </p>
+        <h2><a href="#" onclick="$(this).toggleClass('active');$('#structural_pruning').slideToggle(); return false;">Structural Pruning</a></h2>
+        <div class="hidden togglable" id="structural_pruning">
+          <p>
+            Most trees benefit from regular structural pruning: the reduction of the
+            density of a tree's canopy to prevent wind damage and increase light
+            levels. In this practice, the focus is on cutting unwanted branches back
+            to their origin, leaving a strong and simplified network of branches
+            that will have a chance to grow in a way most beneficial to the tree
+            as a whole.
+          </p>
+          <p>
+            Generally, structural pruning is preferable to crown reduction (see below)
+            for the overall health and safety of a tree, though sometimes a fusion of
+            these methods is utilized. Upon doing a risk assessment of a tree we can
+            determine the best course.
+          </p>
+        </div>
+        <h2><a href="#" onclick="$(this).toggleClass('active');$('#crown_reduction').slideToggle(); return false;">Crown Reduction</a></h2>
+        <div class="hidden togglable" id="crown_reduction">
+          <p>
+            Crown reduction or "drop crotching" is sometimes required on a tree which
+            is growing too large for its surroundings. This is a common occurrence in
+            urban settings. A tree may be growing into power lines or a neighbor's
+            building, or may pose a threat to an area frequented by pedestrians.
+          </p>
+          <p>
+            Although crown reduction is not always recommendable it may at times be
+            a plausible option, providing it is done by an arborist skilled in the
+            technique.  The use of this form of pruning requires cuts to be made
+            that do not go back to the tree's natural boundary, which can leave a
+            tree more susceptible to decay. Similar to topping it can stimulate rapid
+            epicormic growth in certain species, a setup for the development of
+            poorly attached branches requiring frequent maintenance.
+          </p>
+          <p>
+            If not ideal, crown reduction is often preferable to the all-out removal
+            of a tree (and the prospect of having to wait years for a new tree to
+            replace a privacy screen of foliage). Some species, such as ficus microcarpa,
+            are more tolerant than others to this practice. Some trees, such as birch,
+            respond very badly indeed to reduction cuts. Given the circumstances we
+            will advise accordingly.
+          </p>
+        </div>
+        <h2><a href="#" onclick="$(this).toggleClass('active');$('#pollarding').slideToggle(); return false;">Pollarding</a></h2>
+        <div class="hidden togglable" id="pollarding">
+          <p>
+            Although pollarding is a legitimate technique it is one we rarely use.
+            It is frowned upon generally as it is often confused with topping.
+            In pollarding, a young tree is trained and maintained to an established
+            size by cutting all but the central leader and a few structural branches.
+            Smaller branches are cut back to the trunk and eventually a knuckle forms.
+            All subsequent sprouts are pruned to within an inch or so of this knuckle
+            on a regular basis (e.g. every 2 years). Although the result of this
+            leaves a tree looking remarkably bare for a time, it is not a bad way
+            of maintaining a tree at a specific size. Pollarding is only appropriate
+            with some species (e.g., London Plane, Sycamore, Linden).
+          </p>
+        </div>
+        <h2><a href="#" onclick="$(this).toggleClass('active');$('#vista_pruning').slideToggle(); return false;">Vista Pruning</a></h2>
+        <div class="hidden togglable" id="vista_pruning">
+          <p>
+            This type of pruning involves tailoring a tree's foliage such that a
+            view is restored while the tree's health is kept in tact. Usually a tree
+            that is pruned properly will enhance a view.
+          </p>
+        </div>
+        <h2><a href="#" onclick="$(this).toggleClass('active');$('#removal').slideToggle(); return false;">Removal</a></h2>
+        <div class="hidden togglable" id="removal">
+          <p>
+            At times removing a tree is necessary. There is an art to removing a
+            tree safely and efficiently.  If this is determined to be the best
+            course of action we are set up with the necessary gear and have years
+            of experience doing large and precarious removals.
+          </p>
+        </div>
+        <h1>Gallery</h1>
+        <img alt="Gallery 1" class="gallery" src="images/gallery_1.jpg">
+        <img alt="Gallery 2" class="gallery" src="images/gallery_2.jpg">
+        <img alt="Gallery 3" class="gallery" src="images/gallery_3.jpg">
+        <h1>Contact Us</h1>
+        <p>
+          Josef Sikelianos, Owner
+          <br>
+          <a href="mailto:joe@urbanarboristsf.com">joe@urbanarboristsf.com</a>
+          <br>
+          415.676.1949
+        </p>
+        <p class="weak">
+          ISA Certified Arborist #WE-9111A
+          <br>
+          Ca. Lic. #994610
+          <br>
+          Insurance: #OME004632
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
